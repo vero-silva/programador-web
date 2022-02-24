@@ -4,39 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mi primer html</title>
+    <title>CV de Melina Silva</title>
 </head>
 <body>
     <!--esto es un comentario en html-->
-    <h1>Encabezado 1</h1>
-    <h2>Encabezado 2</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum quos ab quasi ipsa esse rem itaque, nostrum et dicta quidem nihil iusto natus doloribus beatae illo nemo optio eius quia.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel odio laudantium possimus similique nulla! Porro excepturi dignissimos atque quasi unde? Non dicta ad ipsum ratione voluptate ex facere laborum perferendis?</p>
-    <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore amet possimus vel nemo dolorem. Deleniti molestiae commodi perspiciatis illo eos maiores sed quod pariatur aliquid, quisquam aut accusantium, earum enim!
-    Rerum tempore, laboriosam, quos ratione repellendus nobis suscipit dolorem quia at repellat temporibus perspiciatis voluptatum sequi soluta obcaecati nemo accusamus reprehenderit exercitationem possimus dignissimos itaque hic incidunt debitis quis? Repellendus?
-    Corrupti quo deserunt et fugiat earum adipisci aperiam quod eum ut voluptas culpa officiis perspiciatis cum, eaque beatae quam perferendis atque aut quas consequuntur maiores sed. Suscipit voluptatum tenetur ad?</p> -->
-    <h3>Encabezado 3</h3>
-    <h4>Encabezado 4</h4>
-    <h5>Encabezado 5</h5>
-    <h6>Encabezado 6</h6> 
-    <h2>Ejemplos listas</h2>
+    <h1>Melina Silva</h1>
+    <h2><img src="foto_cv.jpg" width="400" height="600" alt="foto de mujer profesional para curriculum"></h2>
+    <h3>Edad:</h3>
+    <P>34 años</P>
+    <H3>Domicilio:</H3>
+    <p>Calle falsa 1234, Mar del plata, provincia de Buenos Aires</p>
+    <H3>Profesión:</H3>
+    <p>Licenciada en Administración y Contadora Pública </p>
+    <h4>¿Qué series me gustan?</h4>
     <ul>
-        <li>Boca</li>
-        <li>river</li>
-        <li>san lorenzo</li>
+        <li>Friends</li>
+        <li>The Big Bang Theory</li>
+        <li>Peaky Blinders</li>
     </ul>
+    <h4>¿Que películas son las que más me gustaron?</h4>
     <ol>
-        <li>Boca</li>
-        <li>river</li>
-        <li>san lorenzo</li>    
-    </ol>  
-    <h2>Etiqueta a</h2> 
-    <p>Lorem ipsum dolor, hace <a href="https://www.google.com/" target=" blank">clik</a> aqui sit amet consectetur adipisicing elit. Est corporis labore ut deleniti numquam, ea expedita, autem rem rerum voluptatem, deserunt non. Nemo quia nostrum, corrupti enim repellendus odit dolorum.</p>
-    <h2>Etiqueta img</h2>
-    <img src="dipper.jpg" alt="dipper">
-    <img src="img/flor.jpg" alt="flor">
+        <li>Harry Potter y la cámara secreta</li>
+        <li>El silencio de los inocentes</li>
+        <li>Suicide Squad</li>   
+    </ol>
+<h4>Perfil</h4>
+<p>En el ámbito profesional, me gusta el trabajo en grupo y poder forjar un ambiente laboral colaborativo y de aprendizaje a la hora de llevar adelante un nuevo proyecto. </p>
+<P>En lo personal, disfruto mucho de pasar tiempo con mis seres queridos, principalmente compartiendo almuerzos los fines de semana. Soy amante de los perros, tengo 3 amigos caninos y mi actividad favorita con ellos es realizar largas caminatas por la costa al atardecer.</p>
+<p>No me gusta cocinar, y antes a la hora de comer la primera opción siempre era alguna comida rápida, pero he logrado adquirir nuevas recetas y métodos para cocinar sencillos que me ayudan a tener una alimentación mucho más saludable. También logre tener el hábito de realizar actividad física, lo cual me ha ayudado a sobrellevar muy bien algunos periodos de estrés laboral. </p>
 
-    
-    
+<h5>Si queres contactarme podés completar el siguiente formulario: </h5>
+<form action="formulario"></form>   
+   <p>
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Escribe tu nombre"/>
+   </p>
+   <p>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" placeholder="Escribe tu apellido">
+   </p>
+   <p>
+        <label for="email" class="colocar email">Email</label>
+        <input type="email" name="email" placeholder="Escribe tu Email">
+    </p>
+   <p>
+        <label for="asunto">Asunto</label>
+        <input type="text" name="asunto" placeholder="Escriba un asunto">
+    </p>
+    <p>
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" placeholder="Deje aquí su mensaje..."></textarea>
+    </p>
+    <P>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Borrar" />
+     </P>
 </body>
 </html>

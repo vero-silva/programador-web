@@ -1,0 +1,57 @@
+h1{
+    text-transform: uppercase;
+    text-decoration-line: underline overline;
+    text-align: center;
+    background-color: lightblue;
+}
+
+h2{
+    text-align: center;
+}
+
+img {
+    border-radius: 111px 111px 111px 111px;
+-webkit-border-radius: 111px 111px 111px 111px;
+-moz-border-radius: 111px 111px 111px 111px;
+}
+
+h3{
+    text-transform: uppercase;
+}
+
+h4{
+    text-transform: uppercase;
+}
+
+p {
+    font-style: normal;
+}
+   
+#bloque1{
+    background-color: lightsteelblue;
+    }
+
+#bloque2{
+    background-color: lightcyan;
+    }
+
+#bloque3 {
+    background: lightsalmon;
+}
+
+.box {
+    display: block;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 400px;
+}
+
+a{
+    text-transform: uppercase;
+}
+
+a:hover{
+    color: blue;
+}
+ 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tarea 1 javasc</title>
+</head>
+
+<body> 
+    <script>
+        var nombre;
+        var distancia;
+
+        nombre = prompt("ingrese su nombre")
+        distancia = prompt("ingrese los metros a recorrer")
+
+        document.write("Hola ")
+        document.write(nombre)
+        document.write(" tendras que viajar en ")
+
+        if (distancia > 0 && distancia <= 1000) {
+            document.write("pie")
+        } else if (distancia > 1000 && distancia <= 10000) {
+            document.write("bicicleta")
+        } else if (distancia > 10000 && distancia <= 30000) {
+            document.write("colectivo")
+        } else if (distancia > 30000 && distancia <= 100000) {
+            document.write("auto")
+        } else if (distancia > 100000) {
+            document.write("avion")
+        
+        }
+
+
+    </script>
+
+</body>
+
+</html>

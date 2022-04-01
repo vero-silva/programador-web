@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M2U2.ejercicio1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+        #bloque {
+            background: rgb(117, 114, 112);
+        }
+
+        .box {
+            display: block;
+            width: 800px;
+            height: 80px;
+            position: relative;
+            left: 100px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <!---inicio barra de navegacion-->
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="motorbike_icon_preview.jpg" width="60" height="60" alt="">
+            Motorbike Travel
+        </a>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;">¿Quienes somos?</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;">Destinos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;">Tours</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" style="color:white" id="navbarDropdownMenuLink"
+                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Alquileres
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="#">Motos</a>
+                    <a class="dropdown-item" href="#">Equipos y accesorios</a>
+                    <a class="dropdown-item" href="#">Estadias y alojamientos</a>
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="color: white;">Search</button>
+        </form>
+        <div class="social-menu">
+            <a target="black" href="https://www.youtube.com/" style="color:white">
+                <i class="fa fa-youtube">
+                    Youtube
+                </i>
+            </a>
+            <a target="black" href="https://www.instagram.com/" style="color: white;">
+                <i class="fa fa-instagram">
+                    Instagram
+                </i>
+            </a>
+            <a target="black" href="https://es-la.facebook.com/" style="color:white ;">
+                <i class="fa fa-facebook">
+                    Facebook
+                </i>
+            </a>
+        </div>>
+    </nav>
+    <!---inicio carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="text-center">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="viaje1.jpg" class="img-fluid" alt="Responsive image" height="1000" width="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="viaje2.jpg" class="img-fluid" alt="Responsive image" height="1000" width="600">
+                </div>
+                <div class="carousel-item">
+                    <img src="viaje3.jpg" class="img-fluid" alt="Responsive image" height="1000" width="600">
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!---inicio columnas-->
+    <div class="container">
+        <div class="d-flex">
+            <div class="p-2 w-100">
+                <div class="container" style="background-color:rgb(108, 114, 131);">
+                    <div class="row justify-content-start">
+                        <div class="col-sm">
+                            <h3>One of three columns</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam atque earum facere,
+                                officiis
+                                eveniet
+                                aliquid, tenetur tempora quam odit praesentium, iure aperiam quibusdam? Sunt,
+                                blanditiis
+                                quisquam
+                                libero quo dolorem vel?</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione est culpa mollitia,
+                                harum
+                                omnis
+                                dicta facere eligendi nulla deleniti assumenda provident totam pariatur ipsa hic
+                                aliquam
+                                exercitationem nostrum? Fuga, dicta.</p>
+                        </div>
+                        <div class="col-sm">
+                            <h3>One of three columns</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis explicabo
+                                dolorum
+                                quibusdam
+                                voluptate atque unde, doloribus recusandae sequi ab. Hic possimus praesentium
+                                blanditiis
+                                corporis
+                                tempora aliquid molestias sapiente maiores vel.</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus veniam ipsam
+                                officiis
+                                inventore quis possimus numquam quod sint voluptas nesciunt, delectus sit, incidunt
+                                molestiae
+                                temporibus provident, ea laboriosam beatae! Quibusdam.</p>
+                        </div>
+                        <div class="col-sm">
+                            <h3>One of three columns</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione est culpa mollitia,
+                                harum
+                                omnis
+                                dicta facere eligendi nulla deleniti assumenda provident totam pariatur ipsa hic
+                                aliquam
+                                exercitationem nostrum? Fuga, dicta.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione est culpa mollitia,
+                                harum
+                                omnis
+                                dicta facere eligendi nulla deleniti assumenda provident totam pariatur ipsa hic
+                                aliquam
+                                exercitationem nostrum? Fuga, dicta.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---fin columnas-->
+            <!---inicio acordeon-->
+            <div style="background-color: rgb(192, 185, 185);">
+                <div class="p-2 flex-shrink-1 ">
+                    <h4>Articulos de interes</h4>
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
+                                        aria-controls="collapseOne">
+                                        <a style="color:black ;"> Articulo 1</a>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                data-parent="#accordionExample">
+                                <p>texto sobre articulo 1</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                        aria-controls="collapseTwo">
+                                        <a style="color:black ;"> Articulo 2</a>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordionExample">
+                                <p> texto sobre articulo 2</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed" type="button"
+                                        data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        <a style="color:black ;"> Articulo 3</a>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordionExample">
+                                <p>texto sobre articulo 3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--inicio card-->
+    <div id="bloque">
+        <div class="container">
+            <h1>Testimonios</h1>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">"EXCELENTE"</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
+                                animi, quam recusandae alias eum, illum quidem laborum natus numquam error saepe
+                                reprehenderit distinctio eius omnis voluptas! Beatae ducimus dolore autem.</p>
+                            <a href="#" class="btn btn-primary">seguir leyendo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">"SUPER RECOMENDABLE"</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus
+                                quos minima sapiente aperiam beatae modi porro, quasi veniam. Et a dolorem pariatur
+                                dolores ratione magni fuga labore impedit consectetur exercitationem.</p>
+                            <a href="#" class="btn btn-primary">seguir leyendo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---inicio formulario de contacto-->
+
+    <div class="box">
+        <h3>contáctanos:</h3>
+        <p> Por favor rellene este formulario y nos pondremos en contacto con usted.</p>
+        <form>
+            <div class="form-group">
+                <label for="exampleInputName">Nombre</label>
+                <input type="text" class="form-control" id="exampleInputName" aria-describedby="NameHelp">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputTelefono">Teléfono</label>
+                <input type="text" class="form-control" id="exampleInputTelefono" aria-describedby="telefonoHelp">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Escribe tu mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+    <!--fin formulario de contacto-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</body>
+</html>

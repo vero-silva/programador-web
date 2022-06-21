@@ -1,0 +1,92 @@
+/*
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+footer{
+    background-color: #aaa;
+}
+/*
+regla para los h1 y h2 donde se utilizará la
+fuente Alfa
+*/
+h1, h2 {
+    font-family: 'Alfa Slab One', cursive;
+}
+/*
+regla hero con la que ajustaremos algunos estilos particulares
+de nuestro encabezado de sitio.
+*/
+.hero {
+    background: url(../images/header.jpg) no-repeat;
+    background-size: cover;
+    height: 0.5vh;
+    min-height: 600px;
+    color: white;
+}
+/*estilos de la seccion novedades*/
+.lista-novedades {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.lista-novedades li {
+    margin: 4px 0;
+}
+.lista-novedades li a {
+    background-color: #fff;
+    font-family: 'Alfa Slab One', cursive;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #a0a0a0;
+    transition: all .2s ease-in-out;
+    display: block;
+}
+.lista-novedades li a:hover {
+    color: #212529;
+    background-color: #dadada;
+}
+.lista-novedades li a img {
+    width: 120px;
+    height: 50px;
+    filter: grayscale();
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+.lista-novedades li a:hover img {
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;
+}
+/* estilos seccion testimonios*/
+.testimonios {
+    background-color: #dadada;
+    padding-bottom: 4rem !important;
+}
+.testimonio {
+    text-align: center;
+    padding: 50px 20px;
+}
+.carrousel-control-prev-icon,
+.carrousel-control-next-icon {
+    background-image: none ;
+}
+.carrousel-control-prev-icon:after,
+.carrousel-control-next-icon:after {
+    font-family: "FontAwesome";
+    font-size: 30px;
+    color: #000;
+}
+.carrousel-control-prev-icon:after {
+content: "\f137";
+}
+.carrousel-control-next-icon {
+    content: "\f138";
+}
+.carrousel-indicators li {
+    background-color: #000;
+}
+/*estilo seccion NOSOTROS*/
+.staff {
+    background: #efefef;
+}
